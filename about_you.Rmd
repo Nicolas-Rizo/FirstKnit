@@ -1,0 +1,95 @@
+---
+title: "First Knit"
+author: "Nicolas Rizo"
+date: "Date, November 16 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+
+###my answer     
+  
+ I am currently in the middle row of the class, and I usually prefer to sit within this geeral area in other classes. How I feel about periodic seat re-assignments is at a 5, because I have a neutral opinion on it. 
+     
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+  
+ My full name is Nicolas Rizo, but I prefer to be called Nick by my peers and instructors. I doesn't matter what you call me though, you are the professor after all.  
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+  
+  I want to be able to live comfortably doing what I love. I want to study within the area of Biology, and eventually become a proffesional in the medical field. 
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+  
+The last foreign country I have been to in recent years has been Mexico. It was a couple of years ago and I had went to vacation. I have never been in the military, but it is never out of the question. If I were to enlist, I see myself being a Navy Seal, because I have a personal connection to them.
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  
+I am hoping to get the best grade possible within this Stats class, however, my laziness may prevent that from happening, but I must give it my best shot regardless.   
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+  
+  When it comes to working with computer software, especially Windows, I would say I am at an 8. I grew up using computers and I have naturally become an adequate user. I get to class via my automobile known as a Toyota Corolla, usually with no issues that limit when I can be at the college. I attended High School about 6 years ago at Rosamond High School.
+
+
+
+
